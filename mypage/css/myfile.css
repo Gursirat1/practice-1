@@ -1,0 +1,679 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    font-family:sans-serif
+}
+
+
+
+.main{
+    width: 1440px;
+    height: 550px;
+    background-color: rgb(237, 254, 255);
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 25px;
+    
+}
+
+.button1{
+    width: 188px;
+    height: 48px;
+    background-color: rgb(12, 187,199);
+    margin-top: 75px;
+}
+
+.container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px;   
+}
+
+.container ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 45px;
+    color: black;
+}
+
+.container ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.button{
+    width: 138px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid rgb(12,187, 199);
+    margin-right: 145px;
+
+}
+.button a{
+    text-decoration: none;
+    color: rgb(12, 187,199);
+
+}
+
+p{
+    margin-top: 30px;
+    color: grey;    
+}
+
+.image img{
+    margin-left: 300px;
+    margin-top: -150px;
+    height: 250px;
+}
+
+.button1 a{
+    color: white;
+    text-decoration: none;
+    border:turquoise;
+}
+
+.container ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(12, 187,199);;
+}
+.logo{
+    font-weight: bold;
+    width: 103px;
+    height: 34px;
+    margin-top: 15px;
+}
+
+h1{
+    font-weight: lighter;
+}
+
+.photo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly; 
+    margin-top: 30px;
+}
+
+.our{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(239, 254, 255);
+    color: rgb(12, 187, 199);
+    align-items: center;
+    width: 100px;
+    height: 22px;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    margin-left: 700px;
+    
+}
+
+h3{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.group8 img{
+margin-left: 500px;
+margin-top: 40px;
+}
+
+
+
+
+#container .promise{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(239, 254, 255);
+    color: rgb(12, 187, 199);
+    align-items: center;
+    width: 85px;
+    height: 22px;
+    margin-left: 120px;
+    margin-top: 100px;
+   font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+h5{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+#container img{
+    float:right ;
+   margin-right: 200px;
+   margin-top: -60px;
+   
+}
+
+#promise{
+    margin-left: 120px;
+    text-align: left;
+    margin-top:40px;
+}
+
+#container button{
+    width: 167px;
+    height: 48px;
+    background-color: rgb(12, 187, 199);
+    color: white;
+    margin-left: 120px;
+    border: transparent;
+    margin-top: 50px;
+}
+
+#container button a{
+    text-decoration: none;
+    color: white;
+}
+
+.awards{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(239, 254, 255);
+    color: rgb(12, 187, 199);
+    align-items: center;
+    width: 60px;
+    height: 22px;
+   font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 700px;
+}
+
+.award h4{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 500px;
+} 
+
+.boxmaking{
+    display: flex;
+    padding: 10px;
+    margin: 10px 0;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 903px;
+    height: 696px;
+    flex-wrap: wrap;
+    margin-left: 280px;
+    
+
+}
+
+.boxmaking .box{
+    width: 261px;
+    height: 259px;
+    background-color: rgb(255, 245, 243);
+    text-align: center;
+    
+}
+.boxmaking .box1{
+    width: 261px;
+    height: 259px;
+    background-color: rgb(255, 245, 243);
+    text-align: center;
+    
+}
+.boxmaking .box2{
+    width: 261px;
+    height: 259px;
+    background-color: rgb(236, 255, 255);
+    text-align: center;
+}
+.boxmaking .box3{
+    width: 261px;
+    height: 259px;
+    background-color: rgb(246, 244, 255);
+    
+}
+.boxmaking .box4{
+    width: 261px;
+    height: 259px;
+    background-color: rgb(255, 245, 243);
+}
+.boxmaking .box5{
+    width: 261px;
+    height: 259px;
+    background-color: rgb(255, 245, 243);
+    
+}
+
+.boxmaking .box img{
+    margin-top: 54px;
+}
+.boxmaking .box1 img{
+    margin-top: 54px;
+}
+.boxmaking .box2 img{
+    margin-top: 54px;
+}
+.boxmaking .box3 img{
+    margin-top: 54px;
+    margin-left: 70px;
+    width: 127px;
+    height: 100px;
+}
+.boxmaking .box4 img{
+    margin-top: 54px;
+    margin-left: 75px;
+    
+}
+.boxmaking .box5 img{
+    margin-top: 54px;
+    margin-left: 81px;
+}
+
+.boxmaking .box p{
+    color: black;
+}
+.boxmaking .box1 p{
+    color: black;
+}
+.boxmaking .box2 p{
+    color: black;
+}
+.boxmaking .box3 p{
+    color: black;
+
+    text-align: center;
+}
+.boxmaking .box4 p{
+    color: black;
+    text-align: center;
+}
+.boxmaking .box5 p{
+    color: black;
+    text-align: center;
+}
+
+.create p{
+    border: 1px solid transparent;
+    width: 122px;
+    height: 22px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(239, 254, 255);
+    color: rgb(12, 187, 199);
+    margin-left: 700px;
+}
+
+.create h4{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+.create ol{
+    display: flex;
+    margin-left: 300px;
+}
+
+.create ol li{
+    list-style: none;
+    padding: 70px;
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+#heading{
+    border: 1px solid transparent;
+    background-color:rgb(237, 254, 255);
+    width: 100%;
+    height: 411px;
+    margin-top: -50px;
+}
+
+#heading img{
+    float: right;
+    margin-top: 70px;
+    margin-right: 200px;
+}
+
+.soft{
+    font-size: 15px;
+    font-weight: light;
+    margin-left: 300px;
+    line-height: 50px;
+}
+
+#heading p{
+    margin-left: 300px;
+    line-height: 25px;
+}
+
+.button2{
+    width: 193px;
+    height: 48px;
+    background-color: rgb(12, 187,199);
+    margin-top: 75px;
+    color: white;
+    border: transparent;
+    margin-left: 300px;
+    margin-top: 18px;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: white;
+}
+ 
+section{
+    display: flex;
+    align-items: center;
+}
+
+section .container{
+    width: 716px;
+    height: 639px;
+    margin-left: 650px;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 358px;
+    height: 239px;
+    background-color: rgb(237, 254, 255);
+    padding: 20px;
+    margin-top: 160px;
+    margin-left: -65px;
+}
+
+.top{
+    margin-top: -450px;
+    margin-left: 100px;
+    height:400px;
+}
+
+.test{
+    border: 1px solid transparent;
+    width: 122px;
+    height: 22px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(239, 254, 255);
+    color: rgb(12, 187, 199);
+    margin-left: 200px;  
+}
+ 
+.drive{
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.button3{
+width: 154px;
+height: 38px;
+background-color: rgb(12, 187,199);
+border: none;
+color: white;
+margin-left: 200px;
+margin-top: 20px;
+}
+
+.button3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.solution{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#cube{
+    width: 50%;
+    height: auto;
+    align-items: center;
+    padding: 150px;
+    margin-left: 160px;
+}
+
+.solution img{
+    margin-right: 250px;
+}
+
+.solution h4{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.button4{
+    width: 117px;
+    height: 38px;
+    background-color: rgb(12, 187, 199);
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.button4 a{
+    text-decoration: none;
+    color: white;
+}
+
+.button5{
+    width: 203px;
+    height: 38px;
+    color: rgb(12, 187, 199);
+    background-color: white;
+    border: 1px solid rgb(12, 187, 199);
+}
+
+.button5 a{
+    text-decoration: none;
+    color:rgb(12, 187, 199); ;
+}
+
+.Resources{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(239, 254, 255);
+    color: rgb(12, 187, 199);
+    align-items: center;
+    width: 100px;
+    height: 22px;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    margin-left: 700px;  
+}
+
+.stay h5{
+    font-weight: lighter;
+    margin-left: 645px;
+}
+
+.inline{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.a{
+    border: 1px solid transparent;
+    width: 359px;
+    height: 533px;
+    padding: 30px;
+}
+
+.b{
+    border: 1px solid transparent;
+    width: 359px;
+    height: 533px;
+    padding: 30px;  
+}
+.c{
+    border: 1px solid transparent;
+    width: 359px;
+    height: 533px;
+    padding: 30px;
+}
+
+.a h1{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.b h1{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.c h1{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.button6{
+    width: 114px;
+    height: 38px;
+    background-color: rgb(12, 187, 199);
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.button6 a{
+    text-decoration: none;
+    color: white;
+}
+
+.button7{
+    width: 114px;
+    height: 38px;
+    background-color: rgb(12, 187, 199);
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.button7 a{
+    text-decoration: none;
+    color: white;
+}
+
+.button8{
+    width: 114px;
+    height: 38px;
+    background-color: rgb(12, 187, 199);
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.button8 a{
+    text-decoration: none;
+    color: white;
+}
+
+.colorbox{
+    width: 100%;
+    height: 370px;
+    background-color: rgb(237, 254, 255);
+    margin-top: -350px;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: gray;
+}
+
+.list{
+    display: flex;
+justify-content: space-evenly;
+line-height: 30px;
+}
+
+#foot1 h4{
+    margin-left: 200px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 100px;
+    
+}
+
+#foot1 ol li{
+    list-style: none;
+    margin-left: 200px;
+    font-size: 12px;
+}
+
+#foot2 h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 100px;
+}
+
+#foot2 ol li{
+    list-style: none;
+    font-size: 12px;
+}
+
+#foot3 h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 100px;
+}
+
+#foot3 ol li{
+    list-style: none;
+    font-size: 12px;
+}
+ .list img{
+    margin-top: 150px;
+ }
+
+ .copyright{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .copyright img{
+    margin-top: 40px;
+ }
+
+ .copyright p{
+    margin-top: 40px;
+ }
+
+ .copyright a{
+    text-decoration: none;
+    padding: 15px;
+    color: grey;
+ }
+
+ .copy{
+    margin-top: 40px;
+ }
+
+ .vertical-line{
+    width: 80%;
+    height: 1px;
+    background-color: gray;
+    margin-left: 150px;
+ }
